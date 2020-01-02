@@ -1,5 +1,5 @@
 # DesignPatternsExamples
-Small examples of design patterns in Java. Added as I learn about them in a design patterns course ran by my current employer.
+Small examples of design patterns in Java so I can come back and review as needed.
 
 # Stragety
 Mocks horses competing or misbehaving. 
