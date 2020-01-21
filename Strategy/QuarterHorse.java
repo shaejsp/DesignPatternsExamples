@@ -15,6 +15,6 @@ public class QuarterHorse extends Horse{
      * @param n the name of the horse as a String
      */
     public QuarterHorse(String n) {
-        super(n, new Polebending(), new Buck());
+        super(n, new Barrels(), new Buck());
     }
 }
