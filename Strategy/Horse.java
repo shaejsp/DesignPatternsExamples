@@ -29,14 +29,14 @@ public abstract class Horse {
 
     /**
      * Simulates a horse going to a competition with a 25% chance of misbehaving.
-     * @return -1 if the horse was disqualified for bad behaviour, else the place (1st-5th) of the horse
+     * @return 0 if the horse was disqualified for bad behaviour, else the points (1st-5, 2nd-4, 3rd,-3, 4th-2, 5th-1) of the horse
      */
     public int compete(){
         if(Math.random() > 0.75){
             badBehaviour.misbehave();
-            return -1;
+            return 0;
         }else {
-            return competitionType.compete();
+            return (6-competitionType.compete());
         }
     }
 
