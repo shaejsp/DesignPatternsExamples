@@ -5,7 +5,7 @@ public class Barn {
     	// the horse will now compete in 5 competitions
     	int points = 0;
     	for(int i = 0; i < 5; i++) {
-    		points += (6-cal.compete());  // keep track of how the horse places
+    		points += cal.compete();  // keep track of how the horse places
     	}
 
     	// if the horse is not good at racing, we change the competition type
@@ -29,7 +29,7 @@ public class Barn {
     	 */
     	points = 0;
     	for(int i = 0; i < 5; i++) {
-    		points += (6-cal.compete());
+    		points += cal.compete();
     	}
 
     	// if horse is bad, change to poles
